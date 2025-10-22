@@ -1,4 +1,5 @@
 # PROGPart2
+A Database was not used but everthing was stored using a list
 
 Instructions on How to Run 
 
