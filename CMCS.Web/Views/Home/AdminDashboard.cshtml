@@ -1,0 +1,190 @@
+﻿@model CMCS.Web.ViewModels.AdminDashboardViewModel
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<div class="dashboard-welcome">
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <h1 class="display-6 text-white">Admin Dashboard 👑</h1>
+            <p class="lead text-white mb-0">Welcome back, @Model.UserName! Manage the entire system from here.</p>
+        </div>
+        <div class="col-md-4 text-end">
+            <div class="bg-white rounded-pill px-4 py-2 d-inline-block">
+                <i class="fas fa-crown me-2 text-warning"></i>
+                <strong class="text-dark">Administrator</strong>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3 mb-4">
+        <div class="card stat-card h-100">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h6 class="card-title text-muted">TOTAL USERS</h6>
+                        <h3 class="text-primary">@Model.TotalUsers</h3>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-users fa-2x text-primary"></i>
+                    </div>
+                </div>
+                <a asp-controller="Lecturer" asp-action="Index" class="stretched-link"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+        <div class="card stat-card h-100">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h6 class="card-title text-muted">TOTAL CLAIMS</h6>
+                        <h3 class="text-info">@Model.TotalClaims</h3>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-file-invoice fa-2x text-info"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+        <div class="card stat-card h-100">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h6 class="card-title text-muted">PENDING CLAIMS</h6>
+                        <h3 class="text-warning">@Model.PendingClaims</h3>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-clock fa-2x text-warning"></i>
+                    </div>
+                </div>
+                <a asp-controller="Claims" asp-action="Pending" class="stretched-link"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+        <div class="card stat-card h-100">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h6 class="card-title text-muted">APPROVAL RATE</h6>
+                        <h3 class="text-success">
+                            @(Model.TotalClaims > 0 ?
+                                ((Model.TotalClaims - Model.PendingClaims) * 100 / Model.TotalClaims).ToString("N0") : "0")%
+                        </h3>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-chart-line fa-2x text-success"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-8 mb-4">
+        <div class="card h-100">
+            <div class="card-header">
+                <h5 class="card-title mb-0 text-white">
+                    <i class="fas fa-history me-2"></i>Recent Claims Activity
+                </h5>
+            </div>
+            <div class="card-body">
+                @if (!Model.RecentClaims.Any())
+                {
+                    <div class="text-center py-4">
+                        <i class="fas fa-file-invoice fa-3x text-muted mb-3"></i>
+                        <h5>No Claims Activity</h5>
+                        <p class="text-muted">No claims have been submitted yet.</p>
+                    </div>
+                }
+                else
+                {
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Lecturer</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                    <th>Date</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var claim in Model.RecentClaims)
+                                {
+                                    <tr>
+                                        <td><strong>#@claim.Id</strong></td>
+                                        <td>@claim.LecturerName</td>
+                                        <td>R @claim.Amount.ToString("N2")</td>
+                                        <td>
+                                            <span class="badge @GetStatusBadgeClass(claim.Status)">
+                                                @claim.Status
+                                            </span>
+                                        </td>
+                                        <td>@claim.CreatedAt.ToLocalTime().ToString("MMM dd, HH:mm")</td>
+                                        <td>
+                                            <a asp-controller="Claims" asp-action="Details" asp-route-id="@claim.Id"
+                                               class="btn btn-sm btn-outline-primary">
+                                                <i class="fas fa-eye"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <div class="card-header">
+                <h5 class="card-title mb-0 text-white">
+                    <i class="fas fa-rocket me-2"></i>Quick Actions
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="d-grid gap-2">
+                    <a asp-controller="Claims" asp-action="Create" class="btn btn-primary btn-lg text-start">
+                        <i class="fas fa-plus-circle me-2"></i>Submit New Claim
+                    </a>
+                    <a asp-controller="Claims" asp-action="MyClaims" class="btn btn-outline-primary btn-lg text-start">
+                        <i class="fas fa-list me-2"></i>View My Claims
+                    </a>
+                    <a asp-controller="Claims" asp-action="Pending" class="btn btn-outline-warning btn-lg text-start">
+                        <i class="fas fa-clock me-2"></i>Review Pending
+                    </a>
+                    <a asp-controller="Lecturer" asp-action="Index" class="btn btn-outline-info btn-lg text-start">
+                        <i class="fas fa-users me-2"></i>Manage Users
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@functions {
+    private string GetStatusBadgeClass(ClaimStatus status)
+    {
+        return status switch
+        {
+            ClaimStatus.Pending => "bg-warning text-dark",
+            ClaimStatus.Approved => "bg-success text-white",
+            ClaimStatus.Rejected => "bg-danger text-white",
+            _ => "bg-secondary text-white"
+        };
+    }
+}

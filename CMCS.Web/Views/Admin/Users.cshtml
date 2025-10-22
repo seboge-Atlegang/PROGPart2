@@ -1,0 +1,20 @@
+﻿@model IEnumerable<CMCS.Web.Models.ApplicationUser>
+@{
+    ViewData["Title"] = "Users";
+}
+<h3>All Users</h3>
+<table class="table">
+    <thead><tr><th>Email</th><th>FullName</th><th>Actions</th></tr></thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.Email</td>
+                <td>@u.FullName</td>
+                <td>
+                    <a asp-action="UserDetails" asp-route-id="@u.Id" class="btn btn-sm btn-primary">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

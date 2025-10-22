@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Microsoft.AspNetCore.Identity.IdentityUser>
+@{
+    ViewData["Title"] = "Lecturers";
+}
+<h3>Lecturers</h3>
+<table class="table">
+    <thead><tr><th>Email</th><th>Actions</th></tr></thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.Email</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@u.Id" class="btn btn-sm btn-primary">Details</a>
+                    <a asp-action="AssignRole" asp-route-id="@u.Id" class="btn btn-sm btn-secondary">Assign Role</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

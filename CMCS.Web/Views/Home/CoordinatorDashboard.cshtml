@@ -1,0 +1,109 @@
+﻿@model CMCS.Web.ViewModels.CoordinatorDashboardViewModel
+@{
+    ViewData["Title"] = $"{Model.UserRole} Dashboard";
+}
+
+<div class="dashboard-welcome">
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <h1 class="display-6 text-white">Welcome, @Model.UserName! 👋</h1>
+            <p class="lead text-white mb-0">You are logged in as @Model.UserRole. Review pending claims below.</p>
+        </div>
+        <div class="col-md-4 text-end">
+            <div class="bg-white rounded-pill px-4 py-2 d-inline-block">
+                <i class="fas fa-user-tie me-2 text-pink"></i>
+                <strong class="text-dark">@Model.UserRole</strong>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0 text-white">
+                    <i class="fas fa-tasks me-2"></i>Pending Claims Requiring Action
+                    <span class="badge bg-light text-dark ms-2">@Model.PendingClaims.Count</span>
+                </h5>
+            </div>
+            <div class="card-body">
+                @if (!Model.PendingClaims.Any())
+                {
+                    <div class="text-center py-5">
+                        <i class="fas fa-check-circle fa-4x text-success mb-3"></i>
+                        <h4>All Caught Up! 🎉</h4>
+                        <p class="text-muted">There are no pending claims requiring your attention.</p>
+                    </div>
+                }
+                else
+                {
+                    <div class="row">
+                        @foreach (var claim in Model.PendingClaims.Take(6))
+                        {
+                            <div class="col-md-6 col-lg-4 mb-4">
+                                <div class="card h-100 border-warning">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-start mb-2">
+                                            <h6 class="card-title">Claim #@claim.Id</h6>
+                                            <span class="badge bg-warning text-dark">Pending</span>
+                                        </div>
+                                        <p class="card-text">
+                                            <strong>@claim.LecturerName</strong><br>
+                                            <small class="text-muted">
+                                                Hours: @claim.HoursWorked<br>
+                                                Rate: R @claim.HourlyRate.ToString("N2")<br>
+                                                Amount: <strong>R @claim.Amount.ToString("N2")</strong>
+                                            </small>
+                                        </p>
+                                        @if (!string.IsNullOrEmpty(claim.Notes))
+                                        {
+                                            <p class="small text-muted">@Truncate(claim.Notes, 50)</p>
+                                        }
+                                    </div>
+                                    <div class="card-footer bg-transparent">
+                                        <div class="btn-group w-100">
+                                            <a asp-controller="Claims" asp-action="Details" asp-route-id="@claim.Id"
+                                               class="btn btn-sm btn-outline-primary">
+                                                <i class="fas fa-eye"></i>
+                                            </a>
+                                            <form asp-controller="Claims" asp-action="Approve" method="post" class="d-inline">
+                                                <input type="hidden" name="id" value="@claim.Id" />
+                                                <button type="submit" class="btn btn-sm btn-outline-success">
+                                                    <i class="fas fa-check"></i>
+                                                </button>
+                                            </form>
+                                            <form asp-controller="Claims" asp-action="Reject" method="post" class="d-inline">
+                                                <input type="hidden" name="id" value="@claim.Id" />
+                                                <button type="submit" class="btn btn-sm btn-outline-danger">
+                                                    <i class="fas fa-times"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                    @if (Model.PendingClaims.Count > 6)
+                    {
+                        <div class="text-center mt-4">
+                            <a asp-controller="Claims" asp-action="Pending" class="btn btn-primary">
+                                <i class="fas fa-list me-2"></i>View All Pending Claims
+                            </a>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@functions {
+    private string Truncate(string value, int maxLength)
+    {
+        if (string.IsNullOrEmpty(value)) return value;
+        return value.Length <= maxLength ? value : value.Substring(0, maxLength) + "...";
+    }
+}

@@ -1,0 +1,8 @@
+﻿@model CMCS.Web.Models.ApplicationUser
+@{
+    ViewData["Title"] = "Lecturer Details";
+}
+<h3>@Model.Email</h3>
+<p>FullName: @Model.FullName</p>
+<p>Phone: @Model.PhoneNumber</p>
+<p>Roles: @string.Join(", ", (IEnumerable<string>)ViewBag.Roles ?? Enumerable.Empty<string>())</p>

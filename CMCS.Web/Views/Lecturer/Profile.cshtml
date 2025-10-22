@@ -1,0 +1,28 @@
+﻿@model CMCS.Web.Models.ApplicationUser
+@{
+    ViewData["Title"] = "Profile";
+}
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h4>Profile</h4>
+                <form asp-action="Profile" method="post">
+                    <div class="mb-3">
+                        <label class="form-label">Full name</label>
+                        <input name="FullName" value="@Model.FullName" class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input value="@Model.Email" disabled class="form-control" />
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Phone</label>
+                        <input name="PhoneNumber" value="@Model.PhoneNumber" class="form-control" />
+                    </div>
+                    <button class="btn btn-primary">Save</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

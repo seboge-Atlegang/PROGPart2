@@ -1,0 +1,25 @@
+﻿@model CMCS.Web.ViewModels.AdminDashboardViewModel
+@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+<h3>Admin Dashboard</h3>
+<div class="row">
+    <div class="col-md-4">
+        <div class="card p-3">
+            <h5>Total Users</h5>
+            <p>@Model.TotalUsers</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card p-3">
+            <h5>Total Claims</h5>
+            <p>@Model.TotalClaims</p>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card p-3">
+            <h5>Pending Claims</h5>
+            <p>@Model.PendingClaims</p>
+        </div>
+    </div>
+</div>

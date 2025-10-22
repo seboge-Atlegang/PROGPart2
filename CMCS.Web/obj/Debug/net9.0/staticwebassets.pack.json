@@ -1,0 +1,353 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\CMCS.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CMCS.Web.dsvmzruq8z.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\006a4b0a-8d31-4fdb-826d-b4cadbee1f38.pdf",
+      "PackagePath": "staticwebassets\\uploads\\006a4b0a-8d31-4fdb-826d-b4cadbee1f38.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\05a31fef-5c61-4036-ab69-a93ac310903c.pdf",
+      "PackagePath": "staticwebassets\\uploads\\05a31fef-5c61-4036-ab69-a93ac310903c.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\10a85a5c-b50a-4289-b7b6-dcd36a4dccd1.pdf",
+      "PackagePath": "staticwebassets\\uploads\\10a85a5c-b50a-4289-b7b6-dcd36a4dccd1.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\1135293c-1f68-469a-8004-5384b40d2fe7.pdf",
+      "PackagePath": "staticwebassets\\uploads\\1135293c-1f68-469a-8004-5384b40d2fe7.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\13c2ed43-485c-4a44-ac05-f423ac3845aa.pdf",
+      "PackagePath": "staticwebassets\\uploads\\13c2ed43-485c-4a44-ac05-f423ac3845aa.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\2b4560cb-28ce-495a-a295-053c70c51a8a.pdf",
+      "PackagePath": "staticwebassets\\uploads\\2b4560cb-28ce-495a-a295-053c70c51a8a.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\499918dd-3193-44e7-8c91-1bdad787c990.pdf",
+      "PackagePath": "staticwebassets\\uploads\\499918dd-3193-44e7-8c91-1bdad787c990.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\517ccb97-84b3-4f2b-883f-7e385ce4c77d.pdf",
+      "PackagePath": "staticwebassets\\uploads\\517ccb97-84b3-4f2b-883f-7e385ce4c77d.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\52076c8b-5376-4f84-ac13-053c43bf9e92.pdf",
+      "PackagePath": "staticwebassets\\uploads\\52076c8b-5376-4f84-ac13-053c43bf9e92.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\751f4a70-39dd-4484-9c2f-b9f7b2d8b3fa.pdf",
+      "PackagePath": "staticwebassets\\uploads\\751f4a70-39dd-4484-9c2f-b9f7b2d8b3fa.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\787b7726-4559-4ac6-8ef3-1718d53ffa80.pdf",
+      "PackagePath": "staticwebassets\\uploads\\787b7726-4559-4ac6-8ef3-1718d53ffa80.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\8d8d3d62-253e-4ee7-885e-7ada99fa5135.pdf",
+      "PackagePath": "staticwebassets\\uploads\\8d8d3d62-253e-4ee7-885e-7ada99fa5135.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\a8b3cfb2-8f46-4c6d-be48-76754a4076ad.pdf",
+      "PackagePath": "staticwebassets\\uploads\\a8b3cfb2-8f46-4c6d-be48-76754a4076ad.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\aa73a5f1-d798-417d-b62f-15997c760432.pdf",
+      "PackagePath": "staticwebassets\\uploads\\aa73a5f1-d798-417d-b62f-15997c760432.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\aef19cba-5023-4434-a5a0-6d019f4a2849.pdf",
+      "PackagePath": "staticwebassets\\uploads\\aef19cba-5023-4434-a5a0-6d019f4a2849.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\bbb13034-bc39-41de-9ee8-3ee151c4d28e.pdf",
+      "PackagePath": "staticwebassets\\uploads\\bbb13034-bc39-41de-9ee8-3ee151c4d28e.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\e3aecf78-a7ef-4bdb-b8c1-864335dbbca3.pdf",
+      "PackagePath": "staticwebassets\\uploads\\e3aecf78-a7ef-4bdb-b8c1-864335dbbca3.pdf"
+    },
+    {
+      "Id": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\wwwroot\\uploads\\f9640d26-5d80-41ca-826d-2089ee6d82f7.pdf",
+      "PackagePath": "staticwebassets\\uploads\\f9640d26-5d80-41ca-826d-2089ee6d82f7.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.CMCS.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.CMCS.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.CMCS.Web.props",
+      "PackagePath": "build\\CMCS.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.CMCS.Web.props",
+      "PackagePath": "buildMultiTargeting\\CMCS.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.CMCS.Web.props",
+      "PackagePath": "buildTransitive\\CMCS.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

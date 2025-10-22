@@ -1,0 +1,793 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\cmcs.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:cmcs.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\cmcs.tests\\accountcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:cmcs.tests\\accountcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\obj\\Debug\\net9.0\\CMCS.Web.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net9.0\\CMCS.Web.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\cmcs.tests\\testdatafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:cmcs.tests\\testdatafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\cmcs.tests\\lecturercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:cmcs.tests\\lecturercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\cmcs.tests\\homecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:cmcs.tests\\homecontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\cmcs.tests\\errorhandlingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:cmcs.tests\\errorhandlingtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\cmcs.tests\\claimscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:cmcs.tests\\claimscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\cmcs.tests\\admincontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:cmcs.tests\\admincontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:controllers\\lecturercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:controllers\\claimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\views\\home\\lecturerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:views\\home\\lecturerdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\views\\home\\coordinatordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:views\\home\\coordinatordashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\viewmodels\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:viewmodels\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\views\\claims\\pending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:views\\claims\\pending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\viewmodels\\coordinatordashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:viewmodels\\coordinatordashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\viewmodels\\lecturerdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:viewmodels\\lecturerdashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\views\\lecturer\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:views\\lecturer\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\views\\lecturer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:views\\lecturer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\views\\lecturer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:views\\lecturer\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\views\\lecturer\\assignrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:views\\lecturer\\assignrole.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\views\\claims\\myclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:views\\claims\\myclaims.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\views\\claims\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:views\\claims\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\viewmodels\\myclaimsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:viewmodels\\myclaimsview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\models\\claimdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:models\\claimdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\viewmodels\\claimcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:viewmodels\\claimcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\data\\inmemorystore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:data\\inmemorystore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\models\\claimrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:models\\claimrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:models\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:viewmodels\\registervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:viewmodels\\loginvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\viewmodels\\editprofilevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:viewmodels\\editprofilevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\viewmodels\\assignrolevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:viewmodels\\assignrolevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|c:\\users\\atleg_lptzay4\\onedrive\\desktop\\cmcs.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7220036D-79C2-4EC4-9DE3-234DA8D50A82}|CMCS.Web.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 21,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": ".NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:40:08.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CMCS.Web.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\obj\\Debug\\net9.0\\CMCS.Web.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net9.0\\CMCS.Web.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\obj\\Debug\\net9.0\\CMCS.Web.AssemblyInfo.cs",
+              "RelativeToolTip": "obj\\Debug\\net9.0\\CMCS.Web.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:39:56.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorHandlingTests.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\CMCS.Tests\\ErrorHandlingTests.cs",
+              "RelativeDocumentMoniker": "CMCS.Tests\\ErrorHandlingTests.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\CMCS.Tests\\ErrorHandlingTests.cs",
+              "RelativeToolTip": "CMCS.Tests\\ErrorHandlingTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:28:21.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LecturerControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\CMCS.Tests\\LecturerControllerTests.cs",
+              "RelativeDocumentMoniker": "CMCS.Tests\\LecturerControllerTests.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\CMCS.Tests\\LecturerControllerTests.cs",
+              "RelativeToolTip": "CMCS.Tests\\LecturerControllerTests.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAowA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:27:55.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AdminControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\CMCS.Tests\\AdminControllerTests.cs",
+              "RelativeDocumentMoniker": "CMCS.Tests\\AdminControllerTests.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\CMCS.Tests\\AdminControllerTests.cs",
+              "RelativeToolTip": "CMCS.Tests\\AdminControllerTests.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwGEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:26:49.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\CMCS.Tests\\HomeControllerTests.cs",
+              "RelativeDocumentMoniker": "CMCS.Tests\\HomeControllerTests.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\CMCS.Tests\\HomeControllerTests.cs",
+              "RelativeToolTip": "CMCS.Tests\\HomeControllerTests.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAowA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:26:16.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClaimsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\CMCS.Tests\\ClaimsControllerTests.cs",
+              "RelativeDocumentMoniker": "CMCS.Tests\\ClaimsControllerTests.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\CMCS.Tests\\ClaimsControllerTests.cs",
+              "RelativeToolTip": "CMCS.Tests\\ClaimsControllerTests.cs",
+              "ViewState": "AgIAANkAAAAAAAAAAAA2wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:08:20.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestDataFactory.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\CMCS.Tests\\TestDataFactory.cs",
+              "RelativeDocumentMoniker": "CMCS.Tests\\TestDataFactory.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\CMCS.Tests\\TestDataFactory.cs",
+              "RelativeToolTip": "CMCS.Tests\\TestDataFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:01:54.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\CMCS.Tests\\AccountControllerTests.cs",
+              "RelativeDocumentMoniker": "CMCS.Tests\\AccountControllerTests.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\CMCS.Tests\\AccountControllerTests.cs",
+              "RelativeToolTip": "CMCS.Tests\\AccountControllerTests.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T14:02:58.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Home\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Home\\AdminDashboard.cshtml",
+              "RelativeToolTip": "Views\\Home\\AdminDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T11:39:47.214Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CoordinatorDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Home\\CoordinatorDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\CoordinatorDashboard.cshtml",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Home\\CoordinatorDashboard.cshtml",
+              "RelativeToolTip": "Views\\Home\\CoordinatorDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T11:38:13.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LecturerDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Home\\LecturerDashboard.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\LecturerDashboard.cshtml",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Home\\LecturerDashboard.cshtml",
+              "RelativeToolTip": "Views\\Home\\LecturerDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T11:36:31.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CoordinatorDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\CoordinatorDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\CoordinatorDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\CoordinatorDashboardViewModel.cs",
+              "RelativeToolTip": "ViewModels\\CoordinatorDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:34:13.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LecturerDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\LecturerDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LecturerDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\LecturerDashboardViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LecturerDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:31:29.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwD4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T11:26:11.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "MyClaimsView.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\MyClaimsView.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MyClaimsView.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\MyClaimsView.cs",
+              "RelativeToolTip": "ViewModels\\MyClaimsView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T10:56:24.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-22T01:35:56.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Models\\AppUser.cs",
+              "RelativeToolTip": "Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:07:57.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Roles.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Models\\Roles.cs",
+              "RelativeDocumentMoniker": "Models\\Roles.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Models\\Roles.cs",
+              "RelativeToolTip": "Models\\Roles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:05:56.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "InMemoryStore.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Data\\InMemoryStore.cs",
+              "RelativeDocumentMoniker": "Data\\InMemoryStore.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Data\\InMemoryStore.cs",
+              "RelativeToolTip": "Data\\InMemoryStore.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA3wB8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:04:42.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CMCS.Web.csproj",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\CMCS.Web.csproj",
+              "RelativeDocumentMoniker": "CMCS.Web.csproj",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\CMCS.Web.csproj",
+              "RelativeToolTip": "CMCS.Web.csproj",
+              "ViewState": "AgIAABwAAAAAAAAAAADgvyMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-21T11:59:27.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Users.cshtml",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Admin\\Users.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Users.cshtml",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Admin\\Users.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Users.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T09:53:56.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T09:52:53.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AssignRole.cshtml",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Lecturer\\AssignRole.cshtml",
+              "RelativeDocumentMoniker": "Views\\Lecturer\\AssignRole.cshtml",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Lecturer\\AssignRole.cshtml",
+              "RelativeToolTip": "Views\\Lecturer\\AssignRole.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBQAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T09:51:17.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Lecturer\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Lecturer\\Details.cshtml",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Lecturer\\Details.cshtml",
+              "RelativeToolTip": "Views\\Lecturer\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T09:49:43.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Lecturer\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Lecturer\\Index.cshtml",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Lecturer\\Index.cshtml",
+              "RelativeToolTip": "Views\\Lecturer\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T09:48:51.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Lecturer\\Profile.cshtml",
+              "RelativeDocumentMoniker": "Views\\Lecturer\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Lecturer\\Profile.cshtml",
+              "RelativeToolTip": "Views\\Lecturer\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T09:47:45.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAIBJwCEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T09:46:13.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T09:45:09.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\AdminDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AdminDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\AdminDashboardViewModel.cs",
+              "RelativeToolTip": "ViewModels\\AdminDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:40:33.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AssignRoleVm.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\AssignRoleVm.cs",
+              "RelativeDocumentMoniker": "ViewModels\\AssignRoleVm.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\AssignRoleVm.cs",
+              "RelativeToolTip": "ViewModels\\AssignRoleVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:39:38.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "EditProfileVm.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\EditProfileVm.cs",
+              "RelativeDocumentMoniker": "ViewModels\\EditProfileVm.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\EditProfileVm.cs",
+              "RelativeToolTip": "ViewModels\\EditProfileVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:38:59.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "RegisterVm.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\RegisterVm.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RegisterVm.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\RegisterVm.cs",
+              "RelativeToolTip": "ViewModels\\RegisterVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:38:10.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoginVm.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\LoginVm.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginVm.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\LoginVm.cs",
+              "RelativeToolTip": "ViewModels\\LoginVm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:36:58.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:33:45.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LecturerController.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Controllers\\LecturerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LecturerController.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Controllers\\LecturerController.cs",
+              "RelativeToolTip": "Controllers\\LecturerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:29:13.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T09:26:08.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAIBJwBYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T08:51:03.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T08:50:35.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Pending.cshtml",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Claims\\Pending.cshtml",
+              "RelativeDocumentMoniker": "Views\\Claims\\Pending.cshtml",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Claims\\Pending.cshtml",
+              "RelativeToolTip": "Views\\Claims\\Pending.cshtml",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAYwF0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T08:47:23.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MyClaims.cshtml",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Claims\\MyClaims.cshtml",
+              "RelativeDocumentMoniker": "Views\\Claims\\MyClaims.cshtml",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Claims\\MyClaims.cshtml",
+              "RelativeToolTip": "Views\\Claims\\MyClaims.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAYwE8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T08:46:36.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "create.cshtml",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Claims\\create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Claims\\create.cshtml",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Claims\\create.cshtml",
+              "RelativeToolTip": "Views\\Claims\\create.cshtml",
+              "ViewState": "AgIAADsAAAAAAAAAAAAYwEwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T08:45:42.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAAALwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-21T08:43:52.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ClaimCreateVm.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\ClaimCreateVm.cs",
+              "RelativeDocumentMoniker": "ViewModels\\ClaimCreateVm.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\ViewModels\\ClaimCreateVm.cs",
+              "RelativeToolTip": "ViewModels\\ClaimCreateVm.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T08:43:09.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClaimsController.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Controllers\\ClaimsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClaimsController.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Controllers\\ClaimsController.cs",
+              "RelativeToolTip": "Controllers\\ClaimsController.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAQwMYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T08:40:28.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ClaimDocument.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Models\\ClaimDocument.cs",
+              "RelativeDocumentMoniker": "Models\\ClaimDocument.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Models\\ClaimDocument.cs",
+              "RelativeToolTip": "Models\\ClaimDocument.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T08:39:34.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ClaimRecord.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Models\\ClaimRecord.cs",
+              "RelativeDocumentMoniker": "Models\\ClaimRecord.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Models\\ClaimRecord.cs",
+              "RelativeToolTip": "Models\\ClaimRecord.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T08:38:44.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\atleg_lptzay4\\OneDrive\\Desktop\\CMCS.Web\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T08:37:22.618Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

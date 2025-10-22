@@ -1,0 +1,81 @@
+﻿@model CMCS.Web.ViewModels.MyClaimsViewModel
+@{
+    ViewData["Title"] = "My Claims";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h3 class="card-title">My Claims</h3>
+
+        @if (!Model.Claims.Any())
+        {
+            <div class="alert alert-info">
+                You haven't submitted any claims yet.
+                <a asp-action="Create" class="alert-link">Submit your first claim</a>
+            </div>
+        }
+        else
+        {
+            <table class="table table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>ID</th>
+                        <th>Amount</th>
+                        <th>Hours</th>
+                        <th>Rate</th>
+                        <th>Status</th>
+                        <th>Created</th>
+                        <th>Document</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var claim in Model.Claims)
+                    {
+                        <tr>
+                            <td>@claim.Id</td>
+                            <td>R @claim.Amount.ToString("N2")</td>
+                            <td>@claim.HoursWorked</td>
+                            <td>R @claim.HourlyRate.ToString("N2")</td>
+                            <td>
+                                <span class="badge @GetStatusBadgeClass(claim.Status)">
+                                    @claim.Status
+                                </span>
+                            </td>
+                            <td>@claim.CreatedAt.ToLocalTime().ToString("yyyy-MM-dd HH:mm")</td>
+                            <td>
+                                @if (Model.Documents.ContainsKey(claim.Id))
+                                {
+                                    var document = Model.Documents[claim.Id];
+                                    <a href="@document.FilePath" target="_blank" class="btn btn-sm btn-outline-primary">
+                                        <i class="fas fa-download"></i> @document.FileName
+                                    </a>
+                                }
+                                else
+                                {
+                                    <span class="text-muted">No document</span>
+                                }
+                            </td>
+                            <td>
+                                <a asp-action="Details" asp-route-id="@claim.Id" class="btn btn-sm btn-info">View</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>
+
+@functions {
+    private string GetStatusBadgeClass(ClaimStatus status)
+    {
+        return status switch
+        {
+            ClaimStatus.Pending => "bg-warning",
+            ClaimStatus.Approved => "bg-success",
+            ClaimStatus.Rejected => "bg-danger",
+            _ => "bg-secondary"
+        };
+    }
+}

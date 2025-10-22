@@ -1,0 +1,148 @@
+﻿@model CMCS.Web.ViewModels.LecturerDashboardViewModel
+@{
+    ViewData["Title"] = "Lecturer Dashboard";
+}
+
+<div class="dashboard-welcome">
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <h1 class="display-6 text-white">Welcome back, @Model.UserName! 👋</h1>
+            <p class="lead text-white mb-0">Manage your claims and track your submissions.</p>
+        </div>
+        <div class="col-md-4 text-end">
+            <a asp-controller="Claims" asp-action="Create" class="btn btn-light btn-lg">
+                <i class="fas fa-plus-circle me-2"></i>New Claim
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4 mb-4">
+        <div class="card stat-card h-100">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h6 class="card-title text-muted">PENDING CLAIMS</h6>
+                        <h3 class="text-warning">@Model.PendingClaimsCount</h3>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-clock fa-2x text-warning"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+        <div class="card stat-card h-100">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h6 class="card-title text-muted">APPROVED CLAIMS</h6>
+                        <h3 class="text-success">@Model.ApprovedClaimsCount</h3>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-check-circle fa-2x text-success"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+        <div class="card stat-card h-100">
+            <div class="card-body">
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h6 class="card-title text-muted">TOTAL EARNED</h6>
+                        <h3 class="text-success">R @Model.TotalEarned.ToString("N2")</h3>
+                    </div>
+                    <div class="align-self-center">
+                        <i class="fas fa-money-bill-wave fa-2x text-success"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0 text-white">
+                    <i class="fas fa-history me-2"></i>Recent Claims
+                </h5>
+            </div>
+            <div class="card-body">
+                @if (!Model.MyClaims.Any())
+                {
+                    <div class="text-center py-4">
+                        <i class="fas fa-file-invoice fa-3x text-muted mb-3"></i>
+                        <h5>No Claims Submitted Yet</h5>
+                        <p class="text-muted">Get started by submitting your first claim.</p>
+                        <a asp-controller="Claims" asp-action="Create" class="btn btn-primary">
+                            <i class="fas fa-plus-circle me-2"></i>Submit First Claim
+                        </a>
+                    </div>
+                }
+                else
+                {
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Amount</th>
+                                    <th>Status</th>
+                                    <th>Date Submitted</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var claim in Model.MyClaims.Take(5))
+                                {
+                                    <tr>
+                                        <td><strong>#@claim.Id</strong></td>
+                                        <td>R @claim.Amount.ToString("N2")</td>
+                                        <td>
+                                            <span class="badge @GetStatusBadgeClass(claim.Status)">
+                                                @claim.Status
+                                            </span>
+                                        </td>
+                                        <td>@claim.CreatedAt.ToLocalTime().ToString("MMM dd, yyyy")</td>
+                                        <td>
+                                            <a asp-controller="Claims" asp-action="Details" asp-route-id="@claim.Id"
+                                               class="btn btn-sm btn-outline-primary">
+                                                <i class="fas fa-eye me-1"></i>View
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="text-center mt-3">
+                        <a asp-controller="Claims" asp-action="MyClaims" class="btn btn-outline-primary">
+                            <i class="fas fa-list me-2"></i>View All Claims
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@functions {
+    private string GetStatusBadgeClass(ClaimStatus status)
+    {
+        return status switch
+        {
+            ClaimStatus.Pending => "bg-warning text-dark",
+            ClaimStatus.Approved => "bg-success text-white",
+            ClaimStatus.Rejected => "bg-danger text-white",
+            _ => "bg-secondary text-white"
+        };
+    }
+}
